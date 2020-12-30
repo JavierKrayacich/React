@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0px 5px;
+  font-size: 15px;
+  background-color: black;
+  color: rgb(0,200,255);
+}
+
+#brand {
+  padding: 10px;
+  background-color: black;
+  color: rgb(0,200,255);
+  margin: 10px 0px;
+}
+
+#menuDerecha {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  background-color: black;
+  text-decoration-color: rgb(0,200,255);
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 0px;
+  background-color: black;
+  color: rgb(0,200,255);
+}
+
+.categorias {
+  margin-left: 10px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0,200,255);
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+#cartWidget {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
